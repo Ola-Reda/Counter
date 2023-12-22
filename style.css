@@ -44,6 +44,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.box .action {
+    display: flex;
+}
+
 .box button {
     background-color: transparent;
     color: var(--color-primary-1);
@@ -63,4 +67,10 @@ body {
 .box button:hover {
     background-color: var(--color-primary-1);
     color: white;
+}
+
+@media (max-width: 300px) {
+    .box .action {
+        flex-direction: column;
+    }
 }
