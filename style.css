@@ -44,7 +44,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.box .action {
+.box .actions {
     display: flex;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 @media (max-width: 576px) {
-    .box .action {
+    .box .actions {
         flex-direction: column;
     }
 }
